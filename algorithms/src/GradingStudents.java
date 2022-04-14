@@ -35,6 +35,8 @@ public class GradingStudents {
             .map(Integer::parseInt)
             .collect(toList());
 
+        scanner.close();
+
         List<Integer> result = gradingStudents(grades);
         System.out.println(
                 result.stream()
