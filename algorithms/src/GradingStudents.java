@@ -1,16 +1,16 @@
-import java.util.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
-
 // Neil Khatri
 // HackerRank – Grading Students (Implementation)
 // Attempted 14/04/2022
 
 // CHALLENGE LINK: https://www.hackerrank.com/challenges/grading/problem
 
+import java.util.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
 public class GradingStudents {
-    private static List<Integer> gradingStudents(List<Integer> grades) {
+    public static List<Integer> gradingStudents(List<Integer> grades) {
         List<Integer> roundedGrades = new ArrayList<>();
 
         for (int grade: grades) {

@@ -1,17 +1,16 @@
-import java.io.*;
-import java.util.*;
-import java.util.stream.Stream;
-import static java.util.stream.Collectors.toList;
-
-
 // Neil Khatri
 // HackerRank – Apple and Orange (Implementation)
 // Attempted 14/04/2022
 
 // CHALLENGE LINK: https://www.hackerrank.com/challenges/apple-and-orange/problem
 
+import java.io.*;
+import java.util.*;
+import java.util.stream.Stream;
+import static java.util.stream.Collectors.toList;
+
 public class AppleAndOrange {
-    private static void countApplesAndOranges(int s, int t, int a, int b,
+    public static void countApplesAndOranges(int s, int t, int a, int b,
             List<Integer> apples, List<Integer> oranges) {
         int applesOnHouse = 0;
         int orangesOnHouse = 0;

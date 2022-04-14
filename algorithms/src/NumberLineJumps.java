@@ -1,13 +1,13 @@
-import java.io.*;
-
 // Neil Khatri
 // HackerRank – Number Line Jumps (Implementation)
 // Attempted 14/04/2022
 
 // CHALLENGE LINK: https://www.hackerrank.com/challenges/kangaroo/problem
 
+import java.io.*;
+
 public class NumberLineJumps {
-    private static String kangaroo(int x1, int v1, int x2, int v2) {
+    public static String kangaroo(int x1, int v1, int x2, int v2) {
         // x1 is always behind x2 so v1 has to be more than v2 for kangaroos to meet
         boolean canCatchUp = (v1 > v2);
         boolean willIntersect = false;
