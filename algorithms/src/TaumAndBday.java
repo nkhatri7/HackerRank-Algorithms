@@ -5,7 +5,6 @@
 // CHALLENGE LINK: https://www.hackerrank.com/challenges/taum-and-bday/problem
 
 import java.io.*;
-import java.util.*;
 import java.util.stream.*;
 
 public class TaumAndBday {
